@@ -1,5 +1,6 @@
 let playerSelection = getPlayerSelection();
 let computerSelection = getComputerSelection();
+alert('Connected');
 
 function game (){
  getPlayerSelection();
