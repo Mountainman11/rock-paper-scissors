@@ -38,7 +38,7 @@ function playRound(playerSelection, computerSelection) {
   else if (playerSelection === 'rock'){
    if(computerSelection ==='paper') {
     console.log('Paper beats rock.  You Lose!');
-  }else if (computer selection === 'scissors') {
+  }else if (computerSelection === 'scissors') {
     console.log('Rock beats scissors.  You Win!');
 }}else if (playerSelection === 'paper') {
    if (computerSelection === 'rock') {
