@@ -37,19 +37,19 @@ function playRound(playerSelection, computerSelection) {
   return('Draw!');}
   else if (playerSelection === 'rock'){
    if(computerSelection ==='paper') {
-    return('Paper beats rock.  You Lose!');
+    console.log('Paper beats rock.  You Lose!');
   }else if (computer selection === 'scissors') {
-    return('Rock beats scissors.  You Win!');
+    console.log('Rock beats scissors.  You Win!');
 }}else if (playerSelection === 'paper') {
    if (computerSelection === 'rock') {
-    return('Paper beats rock.  You Win!');
+    console.log('Paper beats rock.  You Win!');
   }else if (computerSelection === 'scissors'){
-   return('Scissors beats rock.  You Loose!');
+   console.log('Scissors beats rock.  You Loose!');
 }}else if (playerSelection === 'scissors'){
    if (computerSelection === 'rock'){
-    return('Rock beats scissors.  You Loose!');
+    console.log('Rock beats scissors.  You Loose!');
 }  else if(computerSelection === 'paper'){
-    return('Scissors beats paper.  You Win!');
-}} else{ return('Not a valid selection.  You forfeit!')};
+    console.log('Scissors beats paper.  You Win!');
+}} else{ console.log('Not a valid selection.  You forfeit!')};
 
 
