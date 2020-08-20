@@ -14,7 +14,7 @@ function game (){
  else { return('Goodbye!');}
 
 function getPlayerSelection() {
- let selection = prompt('Rock, Paper, or Scissors?);
+ let selection = prompt('Rock, Paper, or Scissors?');
  return selection.toLowerCase();
 }
 
